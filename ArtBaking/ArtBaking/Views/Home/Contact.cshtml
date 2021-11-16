@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+
+<main>
+        <!-- Heading for contact page -->
+        <section id="contact">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>CONTACT</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Form for users -->
+        <section id="form">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="fullname" class="form-label">Fullname</label>
+                                    <input type="text" class="form-control" id="inputName" placeholder="Fullname">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email">
+                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Recipe Name</label>
+                                    <textarea name="recipe" class="form-control" id="inputRecipe" cols="30" rows="10" placeholder="Write here which recipe you want.."></textarea>
+                                </div>
+                                <button id="send" class="btn">Send</button>
+                                <a class="btn mt-0" href="./message.html">Messages</a>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
